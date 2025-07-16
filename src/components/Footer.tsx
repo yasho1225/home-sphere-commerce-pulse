@@ -40,9 +40,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Company Info */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="bg-gradient-hero text-primary-foreground p-2 rounded-xl shadow-medium">
-                <ShoppingCart className="h-6 w-6" />
+            <div className="flex items-center gap-3 mb-4">
+              <div className="relative">
+                <img 
+                  src="/lovable-uploads/b21260dd-2055-41a3-95da-7be2b8104e70.png" 
+                  alt="Shop 4 Home Logo"
+                  className="h-10 w-10 rounded-full shadow-medium"
+                />
               </div>
               <div>
                 <h3 className="text-xl font-bold bg-gradient-hero bg-clip-text text-transparent">

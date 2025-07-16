@@ -27,11 +27,15 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center gap-2">
-            <div className="bg-gradient-hero text-primary-foreground p-2 rounded-xl shadow-medium">
-              <ShoppingCart className="h-6 w-6" />
+          <div className="flex items-center gap-3">
+            <div className="relative">
+              <img 
+                src="/lovable-uploads/b21260dd-2055-41a3-95da-7be2b8104e70.png" 
+                alt="Shop 4 Home Logo"
+                className="h-12 w-12 rounded-full shadow-medium hover:shadow-strong transition-all duration-300"
+              />
             </div>
-            <div>
+            <div className="hidden sm:block">
               <h1 className="text-2xl font-bold bg-gradient-hero bg-clip-text text-transparent">
                 Shop 4 Home
               </h1>
